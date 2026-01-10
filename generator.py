@@ -1,10 +1,3 @@
-"""
-Example script for generating audio dialogs from text.
-
-This script demonstrates how to use the harb-dialog-generator package.
-Originally based on: https://colab.research.google.com/drive/1yx0kF2tOYYi8SrPCVVW7V0Rax2jGAhh9
-"""
-
 import os
 
 from elevenlabs import VoiceSettings

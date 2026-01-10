@@ -1,5 +1,3 @@
-"""Core dialog generation functionality."""
-
 import io
 import json
 import random

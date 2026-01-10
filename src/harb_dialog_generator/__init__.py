@@ -1,5 +1,3 @@
-"""Harb Dialog Generator - Generate audio dialog from text using ElevenLabs API."""
-
 from .generator import (
     DialogGenerator,
     assign_voices,
