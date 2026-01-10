@@ -3,13 +3,13 @@ name = "harb-dialog-generator"
 version = "0.1.0"
 description = "Generate audio dialog from text using ElevenLabs API"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.12"
 dependencies = [
     "elevenlabs>=1.0.0",
     "pydub>=0.25.1",
 ]
 
-[project.optional-dependencies]
+[dependency-groups]
 dev = [
     "ruff>=0.8.0",
 ]
@@ -20,7 +20,7 @@ build-backend = "hatchling.build"
 
 [tool.ruff]
 line-length = 100
-target-version = "py39"
+target-version = "py312"
 
 [tool.ruff.lint]
 select = [
